@@ -1,0 +1,92 @@
+{
+  "vehicle_data": [
+    {
+      "timestamp": "08:00",
+      "vehicle_speed": 55.0,
+      "object_speed": 45.0,
+      "object_position": {
+        "x": 100.0,
+        "y": 50.0,
+        "z": 0.0
+      },
+      "weather_condition": "dry"
+    },
+    {
+      "timestamp": "08:01",
+      "vehicle_speed": 60.0,
+      "object_speed": 48.0,
+      "object_position": {
+        "x": 110.0,
+        "y": 55.0,
+        "z": 0.0
+      },
+      "weather_condition": "dry"
+    },
+    {
+      "timestamp": "08:02",
+      "vehicle_speed": 65.0,
+      "object_speed": 50.0,
+      "object_position": {
+        "x": 120.0,
+        "y": 60.0,
+        "z": 0.0
+      },
+      "weather_condition": "wet"
+    },
+    {
+      "timestamp": "08:03",
+      "vehicle_speed": 70.0,
+      "object_speed": 50.0,
+      "object_position": {
+        "x": 30.0,
+        "y": 65.0,
+        "z": 0.0
+      },
+      "weather_condition": "wet"
+    },
+    {
+      "timestamp": "08:04",
+      "vehicle_speed": 75.0,
+      "object_speed": 50.0,
+      "object_position": {
+        "x": 20.0,
+        "y": 70.0,
+        "z": 0.0
+      },
+      "weather_condition": "icy"
+    },
+    {
+      "timestamp": "08:05",
+      "vehicle_speed": 80.0,
+      "object_speed": 55.0,
+      "object_position": {
+        "x": 15.0,
+        "y": 75.0,
+        "z": 0.0
+      },
+      "weather_condition": "icy"
+    },
+    {
+      "timestamp": "08:06",
+      "vehicle_speed": 85.0,
+      "object_speed": 60.0,
+      "object_position": {
+        "x": 10.0,
+        "y": 80.0,
+        "z": 0.0
+      },
+      "weather_condition": "dry"
+    },
+    {
+      "timestamp": "08:07",
+      "vehicle_speed": 90.0,
+      "object_speed": 65.0,
+      "object_position": {
+        "x": 5.0,
+        "y": 85.0,
+        "z": 0.0
+      },
+      "weather_condition": "dry"
+    }
+  ]
+}
