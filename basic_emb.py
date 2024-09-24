@@ -12,7 +12,7 @@ object_speeds = [entry['object_speed'] for entry in vehicle_data]
 object_positions_x = [entry['object_position']['x'] for entry in vehicle_data]
 
 # Define threshold for time to collision
-TIME_TO_COLLISION_THRESHOLD = 2.0  # Ff TCC is below this value, then emergency braking is needed
+TIME_TO_COLLISION_THRESHOLD = 2.0  # if TCC is below this value, then emergency braking is needed
 
 # Function to determine if emergency braking is needed and calculate TTC
 def check_emergency_brake(vehicle_speed, object_speed, object_position_x):

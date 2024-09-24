@@ -13,7 +13,7 @@ object_positions_x = [entry['object_position']['x'] for entry in vehicle_data]
 weather_conditions = [entry['weather_condition'] for entry in vehicle_data]
 
 # Define thresholds and factors
-TIME_TO_COLLISION_THRESHOLD = 2.0  # Example time to collision threshold in seconds
+TIME_TO_COLLISION_THRESHOLD = 2.0  # if TCC is below this value, then emergency braking is needed
 DRIVER_REACTION_TIME = 1.5  # Average reaction time in seconds
 
 # Function to determine if emergency braking is needed and calculate TTC
@@ -24,13 +24,13 @@ def check_emergency_brake(vehicle_speed, object_speed, object_position_x, weathe
         
         # Adjust time to collision threshold based on weather
         if weather == 'wet':
-            time_to_collision_threshold = TIME_TO_COLLISION_THRESHOLD * 1.5
+            time_to_collision_threshold = TIME_TO_COLLISION_THRESHOLD * 1.5 # wet weather increases the time to collision threshold by 50%  
         elif weather == 'icy':
-            time_to_collision_threshold = TIME_TO_COLLISION_THRESHOLD * 2.0
+            time_to_collision_threshold = TIME_TO_COLLISION_THRESHOLD * 2.0 # icy weather increases the time to collision threshold by 100%
         else:
             time_to_collision_threshold = TIME_TO_COLLISION_THRESHOLD
         
-        # Consider driver reaction time
+        # driver reaction time is subtracted from the time to collision to account for the driver's reaction time
         effective_time_to_collision = time_to_collision - driver_reaction_time
         
         if effective_time_to_collision < time_to_collision_threshold:
