@@ -5,9 +5,7 @@
       "vehicle_speed": 55.0,
       "object_speed": 45.0,
       "object_position": {
-        "x": 100.0,
-        "y": 50.0,
-        "z": 0.0
+        "x": 100.0
       },
       "weather_condition": "dry"
     },
@@ -16,9 +14,7 @@
       "vehicle_speed": 60.0,
       "object_speed": 48.0,
       "object_position": {
-        "x": 110.0,
-        "y": 55.0,
-        "z": 0.0
+        "x": 110.0
       },
       "weather_condition": "dry"
     },
@@ -27,9 +23,7 @@
       "vehicle_speed": 65.0,
       "object_speed": 50.0,
       "object_position": {
-        "x": 120.0,
-        "y": 60.0,
-        "z": 0.0
+        "x": 120.0
       },
       "weather_condition": "wet"
     },
@@ -38,9 +32,7 @@
       "vehicle_speed": 70.0,
       "object_speed": 50.0,
       "object_position": {
-        "x": 30.0,
-        "y": 65.0,
-        "z": 0.0
+        "x": 30.0
       },
       "weather_condition": "wet"
     },
@@ -49,9 +41,7 @@
       "vehicle_speed": 75.0,
       "object_speed": 50.0,
       "object_position": {
-        "x": 20.0,
-        "y": 70.0,
-        "z": 0.0
+        "x": 20.0
       },
       "weather_condition": "icy"
     },
@@ -60,9 +50,7 @@
       "vehicle_speed": 80.0,
       "object_speed": 55.0,
       "object_position": {
-        "x": 15.0,
-        "y": 75.0,
-        "z": 0.0
+        "x": 15.0
       },
       "weather_condition": "icy"
     },
@@ -71,9 +59,7 @@
       "vehicle_speed": 85.0,
       "object_speed": 60.0,
       "object_position": {
-        "x": 10.0,
-        "y": 80.0,
-        "z": 0.0
+        "x": 10.0
       },
       "weather_condition": "dry"
     },
@@ -82,9 +68,7 @@
       "vehicle_speed": 90.0,
       "object_speed": 65.0,
       "object_position": {
-        "x": 5.0,
-        "y": 85.0,
-        "z": 0.0
+        "x": 5.0
       },
       "weather_condition": "dry"
     }
