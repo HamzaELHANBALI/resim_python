@@ -69,7 +69,7 @@ fig, axs = plt.subplots(3, 1, figsize=(10, 15), sharex=True)
 axs[0].plot(timestamps, effective_ttc_values, marker='o', linestyle='-', color='c', label='Effective TTC')
 axs[0].plot(timestamps, ttc_thresholds, linestyle='--', color='r', label='TTC Threshold')
 axs[0].set_ylabel('Effective Time to Collision (ETTC)')
-axs[0].set_title('EffectiveTime to Collision (ETTC) Over Time')
+axs[0].set_title('Effective Time to Collision (ETTC) Over Time')
 axs[0].legend()
 
 # Plot weather condition
