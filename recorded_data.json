@@ -43,7 +43,7 @@
       "object_position": {
         "x": 20.0
       },
-      "weather_condition": "icy"
+      "weather_condition": "wet"
     },
     {
       "timestamp": "08:05",
@@ -52,7 +52,7 @@
       "object_position": {
         "x": 15.0
       },
-      "weather_condition": "icy"
+      "weather_condition": "wet"
     },
     {
       "timestamp": "08:06",

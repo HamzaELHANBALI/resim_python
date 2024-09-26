@@ -50,5 +50,3 @@ plt.show()
 # Write the updated data to a new JSON file
 with open(OUTPUT_FILE, 'w') as file:
     json.dump(data, file, indent=2)
-
-print(f"New JSON file '{OUTPUT_FILE}' has been created with braking state information.")
