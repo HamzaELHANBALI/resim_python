@@ -1,3 +1,22 @@
+"""
+Weather-Aware Autonomous Emergency Braking (AEB) System Simulator
+
+This script simulates an AEB system that considers weather conditions when
+calculating Time to Collision (TTC). It processes input data from a JSON file,
+adjusts braking thresholds based on weather, determines when emergency braking
+should be applied, and generates visualizations of the results.
+
+Features:
+- Calculates TTC considering weather conditions (dry/wet)
+- Adjusts braking thresholds based on weather
+- Generates plots for TTC, weather conditions, and emergency braking signals
+- Outputs an updated JSON file with braking state information
+
+Author: Hamza EL HANBALI
+
+Usage: python aeb_weather.py
+"""
+
 import json
 import matplotlib.pyplot as plt
 

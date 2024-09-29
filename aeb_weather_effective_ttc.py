@@ -1,3 +1,24 @@
+"""
+Advanced Autonomous Emergency Braking (AEB) System Simulator
+
+This script simulates an advanced AEB system that considers both weather conditions
+and driver reaction time when calculating Effective Time to Collision (TTC).
+It processes input data from a JSON file, adjusts braking thresholds based on
+weather, accounts for driver reaction time, determines when emergency braking
+should be applied, and generates visualizations of the results.
+
+Features:
+- Calculates Effective TTC considering weather conditions and driver reaction time
+- Adjusts braking thresholds based on weather
+- Accounts for driver reaction time in braking decisions
+- Generates plots for Effective TTC, weather conditions, and emergency braking signals
+- Outputs an updated JSON file with braking state information
+
+Author: Hamza EL HANBALI
+
+Usage: python aeb_weather_effective_ttc.py
+"""
+
 import json
 import matplotlib.pyplot as plt
 

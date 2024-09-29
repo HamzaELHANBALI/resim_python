@@ -1,3 +1,21 @@
+"""
+Simple Autonomous Emergency Braking (AEB) System Simulator
+
+This script simulates a basic AEB system by calculating Time to Collision (TTC)
+based on vehicle and object speeds and positions. It processes input data from
+a JSON file, determines when emergency braking should be applied, and generates
+visualizations of the results.
+
+Features:
+- Calculates simple TTC without considering weather conditions or driver reaction time
+- Generates plots for TTC and emergency braking signals
+- Outputs an updated JSON file with braking state information
+
+Author: Hamza EL HANBALI
+
+Usage: python aeb_simple.py
+"""
+
 import json
 import matplotlib.pyplot as plt
 
@@ -50,3 +68,5 @@ plt.show()
 # Write the updated data to a new JSON file
 with open(OUTPUT_FILE, 'w') as file:
     json.dump(data, file, indent=2)
+
+print(f"New JSON file '{OUTPUT_FILE}' has been created with braking state information.")
