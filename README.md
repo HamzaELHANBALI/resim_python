@@ -20,6 +20,8 @@ pip install -r requirements.txt
 
 <h2>Usage</h2>
 
-// aeb_version can be : aeb_simple.py , aeb_weather.py , aeb_weather_effective_ttc.py
-
 python <aeb_version>.py
+
+with aeb_version being either : 
+
+aeb_simple.py , aeb_weather.py , aeb_weather_effective_ttc.py
